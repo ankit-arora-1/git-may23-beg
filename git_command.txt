@@ -1,0 +1,96 @@
+Here's a list of commonly used Git commands along with their descriptions:
+
+1. `git init`: Initializes a new Git repository in the current directory.
+
+2. `git clone <repository>`: Clones a repository into a new directory.
+
+3. `git add <file>`: Adds a file to the staging area.
+
+4. `git add .`: Adds all changes in the working directory to the staging area.
+
+5. `git commit -m "message"`: Records changes to the repository with a descriptive message.
+
+6. `git status`: Displays the status of the working directory and staging area.
+
+7. `git diff`: Shows the changes between the working directory and the staging area.
+
+8. `git diff --staged`: Shows the changes between the staging area and the last commit.
+
+9. `git log`: Displays a log of commits.
+
+10. `git branch`: Lists all local branches in the repository.
+
+11. `git branch <branch-name>`: Creates a new branch.
+
+12. `git checkout <branch-name>`: Switches to the specified branch.
+
+13. `git checkout -b <branch-name>`: Creates a new branch and switches to it.
+
+14. `git merge <branch-name>`: Merges changes from the specified branch into the current branch.
+
+15. `git remote add <name> <url>`: Adds a remote repository reference.
+
+16. `git push <remote> <branch>`: Pushes changes to a remote repository.
+
+17. `git pull <remote> <branch>`: Fetches changes from a remote repository and merges them into the current branch.
+
+18. `git fetch`: Downloads objects and refs from another repository.
+
+19. `git reset <file>`: Unstages the file, but preserves its contents.
+
+20. `git reset --hard`: Resets the working directory to the state of the last commit.
+
+21. `git rm <file>`: Removes a file from the working directory and stages the deletion.
+
+22. `git stash`: Stashes changes in the working directory.
+
+23. `git stash pop`: Applies stashed changes to the working directory.
+
+24. `git tag <tag-name>`: Creates a lightweight tag at the current commit.
+
+25. `git tag -a <tag-name> -m "message"`: Creates an annotated tag with a message.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+Here are some additional Git commands, including `rebase` and others:
+
+1. `git rebase <branch>`: Reapplies commits from the current branch on top of another branch.
+
+2. `git cherry-pick <commit>`: Applies the changes introduced by a specific commit onto the current branch.
+
+3. `git merge --no-ff <branch>`: Forces a merge commit, even if the changes can be fast-forwarded.
+
+4. `git remote -v`: Lists all remote repositories along with their URLs.
+
+5. `git remote show <remote>`: Displays information about a particular remote repository.
+
+6. `git remote rename <old-name> <new-name>`: Renames a remote repository.
+
+7. `git remote remove <remote>`: Removes a remote repository reference.
+
+8. `git log --oneline`: Displays a simplified log format with each commit on a single line.
+
+9. `git log --graph`: Displays a text-based graphical representation of the commit history.
+
+10. `git log --author=<author>`: Shows only commits by a specific author.
+
+11. `git log --since=<date>`: Displays commits since a specific date.
+
+12. `git log --until=<date>`: Shows commits until a specific date.
+
+13. `git log <file>`: Displays commit history for a specific file.
+
+14. `git show <commit>`: Shows the changes introduced by a specific commit.
+
+15. `git bisect`: Helps in finding the commit that introduced a bug by performing a binary search.
+
+16. `git reflog`: Shows a log of all changes to the HEAD reference.
+
+17. `git revert <commit>`: Creates a new commit that undoes the changes introduced by a specific commit.
+
+18. `git submodule`: Manages submodules within the repository.
+
+19. `git clean -n`: Shows which files would be removed from the working directory by `git clean`.
+
+20. `git clean -f`: Removes untracked files from the working directory.
+
+These commands cover a wide range of Git functionalities. As always, refer to the Git documentation or use `git --help` for more information on each command and its options.
